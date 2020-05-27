@@ -12,3 +12,4 @@ class LinkAdmin(admin.ModelAdmin):
             return ('created', 'updated')
 
 admin.site.register(Link, LinkAdmin)
+
